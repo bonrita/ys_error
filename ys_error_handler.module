@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ys_error_handler.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ys_error_handler_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ys_error_handler module.
+    case 'help.page.ys_error_handler':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Handle errors returned by the rest api') . '</p>';
+      return $output;
+
+    default:
+  }
+}

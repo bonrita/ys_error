@@ -1,0 +1,5 @@
+name: YS error handler
+type: module
+description: Handle errors returned by the rest api
+core: 8.x
+package: Custom

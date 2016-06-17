@@ -1,0 +1,14 @@
+{
+  "name": "drupal/ys_error_handler",
+  "type": "drupal-module",
+  "description": "Handle errors returned by the rest api",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/ys_error_handler",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/ys_error_handler",
+    "source": "http://cgit.drupalcode.org/ys_error_handler"
+  },
+  "require": { }
+}
