@@ -1,2 +1,2 @@
-# ys_error
-Handle error reporting in ajax calls(D8)
+# ys_error_handler
+Handle error reporting in rest calls(Drupal 8)
