@@ -1,0 +1,6 @@
+services:
+  ys_error_handler.event_subscriber:
+    class: Drupal\ys_error_handler\EventSubscriber\ErrorHandler
+    arguments: []
+    tags:
+      - { name: event_subscriber }
